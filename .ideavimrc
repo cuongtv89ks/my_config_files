@@ -1,0 +1,34 @@
+let leader = "\"
+
+" === normal mode mapkey ===
+
+" Reload
+nnoremap <leader>re :vim ~/.ideavimrc<CR>
+
+" Window
+nnoremap <leader>sp :action SplitHorizontally<CR>
+nnoremap <leader>vs :action SplitVertically<CR>
+
+" Tool
+nnoremap <leader>fu :action FindUsages<CR>
+nnoremap <leader>su :action ShowUsages<CR>
+
+" Build & Run
+nnoremap <leader>rr :action Run<CR>
+nnoremap <leader>cc :action Compile<CR>
+nnoremap <leader>cl :action CleanGradleProject<CR>
+
+" Main Menu managers
+nnoremap <leader>fm :action FileMenu<CR>
+nnoremap <leader>rm :action RefactoringMenu1<CR>
+nnoremap <leader>bm :action BuildMenu<CR>
+
+" Code action
+nnoremap <leader>om :action OverrideMethods<CR>
+nnoremap <leader>im :action ImplementMethods<CR>
+
+
+" === insert mode mapkey ===
+
+" Escape insert mode
+:imap jk <ESC>
