@@ -27,7 +27,7 @@ Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 
 " Relative number
-Plugin 'ericbn/vim-relativize'
+Plug 'ericbn/vim-relativize'
 
 call plug#end()
 
