@@ -26,6 +26,9 @@ Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 " Fuzzy Finder
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 
+" Relative number
+Plugin 'ericbn/vim-relativize'
+
 call plug#end()
 
 " Escape insert mode
